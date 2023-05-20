@@ -1,0 +1,76 @@
+<html>
+<body>
+             <!--CSS STYLE -->
+            <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+             <!-- CSS END -->
+    <form action="#" method="get" accept-charset="utf-8">
+      <h1 style="text-align:center;">Sing Up Form</h1>
+      <hr/>
+      
+             <label for="user"> Name: </label>
+      <input type="text" id="user" name="user" placeholder="User name">
+      <br/><br/>
+      
+             <label for="Email">Email: </label>
+      <input type="email" id="email" name="user name" placeholder="User Name" required>
+      <br/><br/>
+      
+             <label for="Passwoard">Passwoard: </label>
+      <input type="pwd" id="Passwoard" name="user pwd" placeholder="User Passwoard" required>
+      <br/><br/>
+                        <!--========= PHONE NUMBER ==========-->
+             <label for="Phone">Phone: </label>  
+             <select>
+                     <option value="+880">+880</option>
+                     <option value="+999">+999</option>
+                     <option value="+101">+101</option>
+             </select>
+      <input type="phone" id="phone" name="user phone" placeholder="123456789" required>
+      <br/><br/>
+      
+             <label for="country">country</label>
+      <input type="country" id="country" list="con" >
+      <datalist id="con">
+              <option value="Bangladesh"></option>
+              <option value="Pakisthan"></option>
+              <option value="Turkis"></option>
+      </datalist> 
+      <br/><br/>
+      
+             <label for="gender">Male: </label>
+      <input type="radio" id="gender" name="sex">
+             <label for="gender2">Female:</label>
+      <input type="radio" id="gender2" name="sex">
+      <br/><br/>
+      
+              <table for="date">Date:</table>
+      <input type="date" id="date" name="dob">
+      <br/><br/>
+      
+            <label for='time'>Time:</label>
+      <input type="time" id="time" name="tm">
+      <br/><br/>
+      
+            <label for='colours'>colours:</label>
+      <input type="color" id="colours" name="col">
+      <br/><br/>
+      
+           <label for='file'>Choos Photo:</label>
+    <input type="file" id="file" name="file">  
+      <br/><br/>
+       
+              <label for="vehicle">I have a bike</label>
+  <input type="checkbox" name="vehicle"><br/>
+              <label for="vehicle">I have a car</label>
+  <input type="checkbox" name="vehicle"><br/>
+              <label for="vehicle">I have a airplane</label>
+  <input type="checkbox" name="vehicle">
+      <br/><br/>
+      
+      <textarea name="commend" cols="20" rows="10">Commend Here...</textarea>
+      <br/><br/>
+      <input type='submit' value="Send">
+      <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
